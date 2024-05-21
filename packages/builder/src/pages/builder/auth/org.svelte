@@ -10,7 +10,7 @@
   } from "@budibase/bbui"
   import { goto } from "@roxi/routify"
   import { auth, admin } from "stores/portal"
-  import Logo from "assets/bb-emblem.svg"
+  import Logo from "assets/carentyroundlogo.png"
   import { get } from "svelte/store"
   import { onMount } from "svelte"
 
@@ -54,7 +54,7 @@
     <Layout>
       <Layout noPadding justifyItems="center">
         <img alt="logo" src={Logo} />
-        <Heading>Set Budibase organisation</Heading>
+        <Heading>Set Carenty organisation</Heading>
       </Layout>
       <Divider noGrid />
       <Layout gap="XS" noPadding>

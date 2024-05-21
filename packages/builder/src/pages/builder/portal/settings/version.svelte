@@ -94,7 +94,7 @@
     <Layout gap="XS" noPadding>
       <Heading size="M">Version</Heading>
       <Body>
-        Keep your budibase installation up to date to take advantage of the
+        Keep your carenty installation up to date to take advantage of the
         latest features, security updates and much more
       </Body>
     </Layout>

@@ -62,6 +62,7 @@
     font-size: 18px;
   }
   .header {
+    color: brown;
     font-weight: 700;
   }
   .timeout .header {

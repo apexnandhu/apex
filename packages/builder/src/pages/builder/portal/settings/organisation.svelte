@@ -68,7 +68,7 @@
         <div class="field">
           <Label
             size="L"
-            tooltip={"Update the Platform URL to match your Budibase web URL. This keeps email templates and authentication configs up to date."}
+            tooltip={"Update the Platform URL to match your Carenty web URL. This keeps email templates and authentication configs up to date."}
           >
             Platform URL
           </Label>

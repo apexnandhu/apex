@@ -187,7 +187,7 @@
       <Heading size="M">Upgrade</Heading>
       <Body size="M">
         {#if license.plan.type === "free"}
-          Upgrade your Budibase installation to unlock additional features. To
+          Upgrade your Carenty installation to unlock additional features. To
           subscribe to a plan visit your
           <Link size="L" href={upgradeUrl}>account</Link>.
         {:else}

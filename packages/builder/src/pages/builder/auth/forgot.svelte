@@ -10,7 +10,7 @@
     FancyInput,
   } from "@budibase/bbui"
   import { organisation, auth } from "stores/portal"
-  import Logo from "assets/bb-emblem.svg"
+  import Logo from "assets/carentyroundlogo.png"
   import { onMount } from "svelte"
   import { goto } from "@roxi/routify"
   import { TestimonialPage } from "@budibase/frontend-core/src/components"
@@ -50,7 +50,7 @@
   <Layout gap="S" noPadding>
     <img alt="logo" src={$organisation.logoUrl || Logo} />
     <span class="heading-wrap">
-      <Heading size="M">
+      <Heading size="L">
         <div class="heading-content">
           <span class="back-chev" on:click={() => $goto("../")}>
             <Icon name="ChevronLeft" size="XL" />

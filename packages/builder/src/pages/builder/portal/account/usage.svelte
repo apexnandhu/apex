@@ -189,7 +189,7 @@
     <Layout noPadding gap="XS">
       <Heading>Usage</Heading>
       <Body>
-        <div>Get information about your current usage within Budibase</div>
+        <div>Get information about your current usage within Carenty</div>
       </Body>
     </Layout>
     <Divider />

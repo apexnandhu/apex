@@ -16,7 +16,7 @@
   import GoogleButton from "./_components/GoogleButton.svelte"
   import OIDCButton from "./_components/OIDCButton.svelte"
   import { handleError } from "./_components/utils"
-  import Logo from "assets/bb-emblem.svg"
+  import Logo from "assets/carentyroundlogo.png"
   import { TestimonialPage } from "@budibase/frontend-core/src/components"
   import { onMount } from "svelte"
 
@@ -25,7 +25,7 @@
   let errors = {}
   let formData = {}
 
-  $: company = $organisation.company || "Budibase"
+  $: company = $organisation.company || "Carenty"
   $: cloud = $admin.cloud
 
   async function login() {
@@ -72,8 +72,8 @@
         {#if loaded}
           <img alt="logo" src={$organisation.logoUrl || Logo} />
         {/if}
-        <Heading size="M">
-          {$organisation.loginHeading || "Log in to Budibase"}
+        <Heading size="XL">
+          {$organisation.loginHeading || "Log in to Carenty"}
         </Heading>
       </Layout>
       <Layout gap="S" noPadding>
@@ -136,7 +136,7 @@
             disabled={Object.keys(errors).length > 0}
             on:click={login}
           >
-            {$organisation.loginButton || `Log in to ${company}`}
+            {$organisation.loginButton || `Log in to Carenty`}
           </Button>
         </Layout>
         <Layout gap="XS" noPadding justifyItems="center">
@@ -170,6 +170,7 @@
   .user-actions {
     display: flex;
     align-items: center;
+    font-style: italic;
   }
   img {
     width: 48px;

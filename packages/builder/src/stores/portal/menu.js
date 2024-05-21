@@ -57,10 +57,6 @@ export const menu = derived([admin, auth], ([$admin, $auth]) => {
         href: "/builder/portal/settings/organisation",
       },
       {
-        title: "Branding",
-        href: "/builder/portal/settings/branding",
-      },
-      {
         title: "Environment",
         href: "/builder/portal/settings/environment",
       },

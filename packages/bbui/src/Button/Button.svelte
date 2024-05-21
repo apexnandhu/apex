@@ -91,4 +91,12 @@
   .spectrum-Button--secondary.new-styles.is-disabled {
     color: var(--spectrum-global-color-gray-500);
   }
+  .spectrum-Button--cta {
+    background-color: #ff0063;
+    border-color: white;
+    color: var(
+      --spectrum-button-cta--text-color,
+      var(--spectrum-global-color-static-white)
+    );
+  }
 </style>

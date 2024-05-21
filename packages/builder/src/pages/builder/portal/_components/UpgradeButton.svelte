@@ -16,7 +16,7 @@
         window.open($admin.accountPortalUrl + "/portal/upgrade", "_blank")
       }}
     >
-      Upgrade
+      UPGRADE
     </Button>
   {:else if !$admin.cloud && sdk.users.isAdmin($auth.user)}
     <Button

@@ -255,7 +255,7 @@
 <LockedFeature
   title={"Audit Logs"}
   planType={"Enterprise plan"}
-  description={"View all events that have occurred in your Budibase installation"}
+  description={"View all events that have occurred in your Carenty installation"}
   enabled={$licensing.auditLogsEnabled}
   upgradeButtonClick={async () => {
     $licensing.goToUpgradePage()

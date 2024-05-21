@@ -28,21 +28,19 @@
     <Icon size="XL" name="ChevronDown" />
   </div>
   <MenuItem icon="UserEdit" on:click={() => profileModal.show()}>
-    My profile
+    Profile
   </MenuItem>
   <MenuItem icon="Moon" on:click={() => themeModal.show()}>Theme</MenuItem>
   {#if !$auth.isSSO}
     <MenuItem icon="LockClosed" on:click={() => updatePasswordModal.show()}>
-      Update password
+      Change password
     </MenuItem>
   {/if}
-  <MenuItem icon="Key" on:click={() => apiKeyModal.show()}>
-    View API key
-  </MenuItem>
+  <MenuItem icon="Key" on:click={() => apiKeyModal.show()}>API key</MenuItem>
   <MenuItem icon="UserDeveloper" on:click={() => $goto("../apps")}>
     Close developer mode
   </MenuItem>
-  <MenuItem icon="LogOut" on:click={logout}>Log out</MenuItem>
+  <MenuItem icon="LogOut" on:click={logout}>Sign out</MenuItem>
 </ActionMenu>
 
 <Modal bind:this={themeModal}>

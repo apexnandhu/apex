@@ -126,7 +126,7 @@
 <Layout noPadding>
   <Layout noPadding gap="XS">
     <Heading size="M">Email</Heading>
-    <Body>Add your SMTP details to send automated emails from Budibase</Body>
+    <Body>Add your SMTP details to send automated emails from carenty</Body>
   </Layout>
   <Divider />
   {#if smtpConfig}
@@ -189,7 +189,7 @@
     <Layout gap="XS" noPadding>
       <Heading size="S">Templates</Heading>
       <Body size="S">
-        Budibase comes out of the box with ready-made email templates to help
+        carenty comes out of the box with ready-made email templates to help
         with user onboarding.
       </Body>
     </Layout>

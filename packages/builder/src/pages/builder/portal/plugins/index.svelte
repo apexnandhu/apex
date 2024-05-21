@@ -73,7 +73,7 @@
 <Page narrow>
   <Layout noPadding>
     <Layout gap="XS" noPadding>
-      <Heading size="M">Plugins</Heading>
+      <Heading size="M">Add ons</Heading>
       <Body>Add your own custom datasources and components</Body>
     </Layout>
     <Divider />

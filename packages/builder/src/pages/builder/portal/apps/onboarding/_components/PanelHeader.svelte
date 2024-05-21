@@ -8,7 +8,11 @@
 </script>
 
 <div class="header">
-  <img alt="Budibase Logo" class="budibaseLogo" src="/builder/bblogo.png" />
+  <img
+    alt="Budibase Logo"
+    class="budibaseLogo"
+    src="/builder/carentyroundlogo.png"
+  />
   <div class="headingAndBack">
     {#if onBack}
       <button on:click={onBack}>

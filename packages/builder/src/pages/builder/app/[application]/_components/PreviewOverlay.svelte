@@ -39,7 +39,7 @@
     <div class="loading placeholder">
       <ProgressCircle />
     </div>
-    <iframe title="Budibase App Preview" {src} />
+    <iframe title="Carenty App Preview" {src} />
   </div>
 </div>
 

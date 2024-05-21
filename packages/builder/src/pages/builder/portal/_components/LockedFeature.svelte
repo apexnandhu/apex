@@ -40,7 +40,7 @@
         disabled={!$auth.accountPortalAccess && $admin.cloud}
         on:click={async () => upgradeButtonClick()}
       >
-        Upgrade
+        UPGRADE
       </Button>
       <!--Show the view plans button-->
       <Button

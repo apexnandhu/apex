@@ -20,11 +20,11 @@
       {#each $admin.maintenance as maintenance}
         {#if maintenance.type === MaintenanceType.SQS_MISSING}
           <Layout>
-            <Heading>Please upgrade your Budibase installation</Heading>
+            <Heading>Please upgrade your installation</Heading>
             <Body>
-              We've detected that the version of Budibase you're using depends
-              on a more recent version of the CouchDB database than what you
-              have installed.
+              We've detected that the version of caranty you're using depends on
+              a more recent version of the CouchDB database than what you have
+              installed.
             </Body>
             <Body>
               To resolve this, you can either rollback to a previous version of
